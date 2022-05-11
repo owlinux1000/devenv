@@ -1,7 +1,7 @@
 {
     "name": "devenv-golang",
     "dockerComposeFile": [
-        "../docker-compose.yml"
+        "../compose.yml"
     ],
     "service": "dev",
     "workspaceFolder": "/mnt",
