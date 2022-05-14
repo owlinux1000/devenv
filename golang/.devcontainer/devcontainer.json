@@ -4,7 +4,7 @@
         "../compose.yml"
     ],
     "service": "dev",
-    "workspaceFolder": "/mnt",
+    "workspaceFolder": "/root",
     "extensions": [
         "golang.go"
     ],
