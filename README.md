@@ -2,4 +2,5 @@
 
 ## Language
 
-- golang
+- [golang](golang)
+- [rust](rust)
