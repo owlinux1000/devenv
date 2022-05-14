@@ -1,0 +1,14 @@
+{
+    "name": "devenv-rust",
+    "dockerComposeFile": [
+        "../compose.yml"
+    ],
+    "service": "dev",
+    "workspaceFolder": "/mnt",
+    "extensions": [
+		"rust-lang.rust",
+		"rust-lang.rust-analyzer"
+    ],
+    "settings": {
+    }
+}
