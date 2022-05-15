@@ -1,0 +1,13 @@
+{
+    "name": "devenv-python",
+    "dockerComposeFile": [
+        "../compose.yml"
+    ],
+    "service": "dev",
+    "workspaceFolder": "/mnt",
+    "extensions": [
+        "ms-python.python"
+    ],
+    "settings": {
+    }
+}

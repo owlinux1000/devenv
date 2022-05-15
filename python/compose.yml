@@ -1,0 +1,10 @@
+version: '3'
+services:
+  dev:
+    tty: true
+    stdin_open: true
+    build:
+      context: .
+    working_dir: /mnt
+    volumes:
+     - ./:/mnt
