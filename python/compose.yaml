@@ -1,0 +1,8 @@
+version: '3'
+services:
+  prd:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    working_dir: "/app"

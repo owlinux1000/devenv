@@ -1,0 +1,11 @@
+version: '3'
+services:
+  dev:
+    build:
+      context: ../
+      dockerfile: Dockerfile
+      target: development
+    working_dir: "/mnt"
+    volumes:
+      - ../:/mnt
+    tty: true
